@@ -7,6 +7,7 @@
   copy = <Primary><Shift>c
   paste = <Primary><Shift>v
 [profiles]
+  # https://github.com/EliverLara/terminator-themes
   [[default]]
     background_color = "#282c34"
     cursor_color = "#a3b3cc"
