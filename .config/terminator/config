@@ -1,0 +1,37 @@
+[global_config]
+  title_transmit_bg_color = "#01630e"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+  title_font = Sans 16
+[keybindings]
+  copy = <Primary><Shift>c
+  paste = <Primary><Shift>v
+[profiles]
+  [[default]]
+    background_color = "#282c34"
+    cursor_color = "#a3b3cc"
+    font = Fira Mono 12
+    foreground_color = "#dcdfe4"
+    scrollback_lines = 5000
+    palette = "#282c34:#e06c75:#98c379:#e5c07b:#61afef:#c678dd:#56b6c2:#dcdfe4:#282c34:#e06c75:#98c379:#e5c07b:#61afef:#c678dd:#56b6c2:#dcdfe4"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 758:221
+      maximised = False
+      fullscreen = False
+      size = 896, 575
+      title = dy@dj: ~
+      last_active_term = 62f4f14e-ec1a-4de7-be65-6e91b3449018
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 62f4f14e-ec1a-4de7-be65-6e91b3449018
+[plugins]
