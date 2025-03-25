@@ -1,0 +1,121 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 16,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "terminal.integrated.inheritEnv": false,
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "git.enableSmartCommit": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.associations": {
+        "*.html": "html"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.textOutputLimit": 50000,
+    "terminal.integrated.fontSize": 18,
+    "editor.rulers": [80, 120],
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "files.autoSave": "afterDelay",
+    "[python]": {
+        "gitlens.codeLens.symbolScopes": ["!Module"],
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnType": true
+    },
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.extraPaths": ["/workspaces/microns_phase3_nda"],
+    "python.languageServer": "Default",
+    "json.schemas": [],
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": ["document"]
+    },
+    "[jsonc]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": ["document"]
+    },
+    "json.format.enable": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "latex-workshop.view.pdf.viewer": "browser",
+    "terminal.integrated.scrollback": 10000,
+    "python.formatting.provider": "black",
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "conventionalCommits.emojiFormat": "emoji",
+    "conventionalCommits.scopes": [],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "html.format.enable": false,
+    "terminal.integrated.rightClickBehavior": "nothing",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "markdown-preview-enhanced.mermaidTheme": "dark",
+    "docker.languageserver.formatter.ignoreMultilineInstructions": true,
+    "prettier.tabWidth": 4,
+    "editor.autoClosingBrackets": "never",
+    "editor.inlineSuggest.enabled": true,
+    "cSpell.dictionaryDefinitions": [
+    
+    ],
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "editor.minimap.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "python.createEnvironment.trigger": "off",
+    "terminal.integrated.profiles.linux": {
+
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "editor.formatOnSave": true,
+    "editor.inlayHints.enabled": "off",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "editor.wordWrap": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "git.replaceTagsWhenPull": true,
+    // "python.analysis.ignore": [
+    //     "notebooks"
+    // ]
+}
