@@ -6,21 +6,33 @@ Just need a place to organize my dotfiles
 
 ## Notes
 - GNU Stow is a good tool to symlink dotfiles dir and $HOME
-	- `sudo apt-get install stow`
-	- .stow-local-ignore like .gitignore
-	- `stow -t $HOME .` would sync $HOME to dotfiles dir
-		- to prevent accidentally commit secrets in $HOME, use `*` .gitignore
-		- and `git add -f .X` to add a specific file
-- TODO - find alternative for Mac
+  - Linux: `sudo apt-get install stow`
+  - Mac: `brew install stow`
+- Config
+  - .stow-local-ignore like .gitignore
+  - `stow -t $HOME .` would sync $HOME to dotfiles dir
+  - to prevent accidentally commit secrets in $HOME, use `*` .gitignore
+	- and `git add -f .X` to add a specific file
 - TODO - checkout https://github.com/twpayne/chezmoi
 
 ## List of Files
 - .bashrc
+- .zshrc
+- .oh-my-zsh
+  - eastwood theme with added timestamp
 - .vimrc
-- .vim, onedark theme
+- .vim
+  - onedark theme
 - .config
-  - terminator, config and theme
-- vscode
-  - ~/.config/Code/User/, settings.json and keybindings.json
-  - ~/.vscode/extensions/extensions.json 
-- TODO - .zsh, oh-my-zsh, iterm2
+  - terminator, config and onedark theme
+- ~~vscode, cursor~~ comes with 'setting sync'
+
+## A Bit Toil Is Fine
+> Not synced by `stow` but good to have
+- iterm2
+    - Settings -> Profile -> default -> Keys -> Key bindings -> Preset -> Natual Text Editing
+    - OneDarkPro Theme
+      - `curl -o OneDarkPro.itermcolors https://raw.githubusercontent.com/chinhsuanwu/one-dark-pro-iterm/master/One%20Dark%20Pro.itermcolors`
+      - Settings -> Profile -> Colors -> Color Preset -> Import above file 
+
+
